@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge, chrome=1">
+    <title>饱了么 - 玩游戏，赢优惠券</title>
+    <link rel="stylesheet" type="text/css" href="css/game.css">
+
+    <script src="js/game.js"></script>
+</head>
+<body onload="newGame()">
+<h1>消灭水果 <a href="index.jsp">回到首页</a></h1>
+<div class="bar">
+    <div class="buttons">
+        <span onclick="newGame()" class="button">新游戏</span>
+    </div>
+    <div class="score">
+        <span>您已获得：￥</span>
+        <span id="score"></span>
+        <span>现金抵用券</span>
+    </div>
+    <div class="buttons">
+    </div>
+</div>
+<div class="game" id="game">
+
+</div>
+</body>
+</html>

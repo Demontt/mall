@@ -1,0 +1,169 @@
+.snack_bg {
+    background: #f7f7f7;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.wrap {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.snack_info {
+    background: #fff;
+    border: 1px solid #f4e9ed;
+}
+
+.wrap_left {
+    margin-left: 10px;
+    float: left;
+    height: 420px;
+}
+
+#zoom {
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+
+.wrap_right {
+    width: 550px;
+    float: right;
+}
+
+.wrap_right .name {
+    font-size: 24px;
+    padding: 10px 60px 0 0;
+}
+
+.wrap_right .price {
+    background: #eaf3f9;
+    height: 82px;
+    margin: 25px 0 10px;
+    position: relative;
+}
+
+.wrap_right .price li {
+    float: left;
+    display: inline;
+}
+
+.wrap_right .price .price1 {
+    line-height: 82px;
+    color: #e61940;
+    font-size: 32px;
+    text-indent: 20px;
+}
+
+.wrap_right .price .price2 {
+    color: #666;
+    font-size: 14px;
+    margin: 20px 30px 0 20px;
+    line-height: 20px;
+}
+
+.wrap_right .activity {
+    color: #ff0045;
+}
+
+.wrap_right .status {
+    height: 35px;
+    border-left: 1px solid #e7e1e1;
+    padding-left: 20px;
+    margin-top: 25px;
+}
+
+.wrap_right .info_wrap {
+    color: #999;
+    line-height: 30px;
+}
+
+.wrap_right .info_wrap .btn_add {
+    width: 200px;
+    height: 50px;
+    background-color: #ff8109;
+    font-size: 24px;
+    text-align: center;
+    border: #f7f7f7 solid 2px;
+    color: #ffffff;
+    position: relative;
+    float: right;
+    right: 20px;
+    top:20px;
+    box-shadow: 2px 2px 3px #888888;
+}
+
+.wrap_right .info_wrap em {
+    color: #666;
+    padding-right: 10px;
+}
+
+.wrap_right .num2 span {
+    color: #333;
+}
+
+.wrap_right .num2 .num-input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 60px;
+    font-size: 24px;
+    height: 25px;
+    line-height: 26px;
+    text-align: center;
+    color: #333;
+}
+
+.wrap_right .num2 .btn_plus {
+    width: 24px;
+    height: 24px;
+    background-color: #777777;
+    font-size: 16px;
+    text-align: center;
+    border: #f7f7f7 solid 2px;
+    color: #ffffff;
+    position: relative;
+    bottom: 5px;
+    box-shadow: 2px 2px 3px #888888;
+}
+
+.detail_cot {
+    width: 1024px;
+    float: left;
+    background: #fff;
+    display: inline;
+}
+
+#tabCot_product {
+    width: 1024px;
+    height: auto;
+    overflow: hidden;
+}
+
+.tabCot_pro {
+    line-height: 24px;
+    background-color: #fff;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+#lingshi_a {
+    background: #f7f7f7;
+    line-height: 30px;
+    margin: 0 20px 20px;
+    padding: 10px;
+}
+
+.tabCot_pro .tips {
+    color: #e61952;
+    border-top: 1px dashed #dadada;
+    border-bottom: 1px dashed #dadada;
+    padding: 20px 0;
+    margin: 0 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.tabCot_pro .tips img {
+    width: 980px;
+}

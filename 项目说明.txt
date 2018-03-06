@@ -1,0 +1,8 @@
+1. 创建数据库，名为 jdbc
+
+2. sql 命令导入 jdbc.sql
+
+3. 修改 config/mysql.properties 里的数据库信息
+
+版本说明： JDK_1.8.0_131, Tomcat 9.0 M22
+Eclipse导入说明：jar包在lib中，part*.jsp用作其他jsp文件include用，报错无需理会

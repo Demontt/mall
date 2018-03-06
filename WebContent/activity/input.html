@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        function f() {
+            var x = document.getElementById("name").value;
+            var myurl = "index.html" + "?" + x;
+            //window.location.assign(myurl);
+            return myurl;
+        }
+    </script>
+
+</head>
+
+<body>
+
+<link rel="stylesheet" href="css/style.css">
+<input type="text" placeholder="输入TA的姓名" name="name" id="name"
+       onKeyDown="if(event.keyCode==13){window.parent.location.href=f()}"/>
+
+<script src='js/amxzqr.js'></script>
+
+<script src="js/index.js"></script>
+
+</body>
+</html>

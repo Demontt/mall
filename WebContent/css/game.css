@@ -1,0 +1,86 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    background-color: #000000;
+    min-width: 300px;
+}
+
+h1 {
+    margin: 0;
+    color: #ffffff;
+    padding: 0.5vmin;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #727272;
+}
+
+h1 a:hover {
+    color: #e9380c;
+}
+
+.game {
+    width: 80vmin;
+    height: 80vmin;
+    min-width: 300px;
+    min-height: 300px;
+    margin: 3vmin auto;
+    padding: 0;
+}
+
+.bar {
+    width: 80%;
+    height: 7vmin;
+    padding: 1vmin;
+    margin: auto;
+    overflow: hidden;
+}
+
+.score {
+    display: inline-block;
+    float: left;
+    font-size: 4vmin;
+    color: #ffffff;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#score {
+    color: #ffff00;
+}
+
+.buttons {
+    display: inline-block;
+    float: left;
+    color: #ffffff;
+    font-size: 4vmin;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 3vmin;
+}
+
+.button {
+    background-color: rgba(100, 6, 111, 0.48);
+    border: solid 1px #ffffff;
+    padding: 1vmin;
+    cursor: default;
+    user-select: none;
+}
+
+.button:hover {
+    background-color: #003f72;
+    color: #f7f7f7;
+    text-shadow: 2px 2px #000000;
+    border: solid 1px #FFFF00;
+}
+
+.block {
+    margin: 0;
+    border: solid #000000;
+    display: inline-block;
+    cursor: default;
+    user-select: none;
+}

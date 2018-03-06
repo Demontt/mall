@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.hid {
+    overflow: hidden;
+}
+
+h1 {
+    margin: 24px;
+    color: #000;
+    font-size: 32px;
+}
+
+.left {
+    float: left;
+}
+
+.car {
+    width: 600px;
+    position: relative;
+    right: 25px;
+    margin: 20px auto;
+    background: #FFF;
+}
+
+.car .img {
+    width: 100px;
+}
+
+.car .img img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: 3px auto;
+}
+
+.car .name {
+    width: 200px;
+}
+
+.fix {
+    text-align: left;
+    line-height: 1;
+    font-size: 14px;
+    font-weight: normal;
+    position: relative;
+    top: 28px;
+    height: 40px;
+}
+
+.car .price {
+    width: 70px;
+    text-align: middle;
+    padding-right: 20px;
+}
+
+.car .price span {
+    color: #ff6700;
+    font-size: 16px;
+}
+
+.car .ctrl {
+    text-align: left;
+    width: 200px;
+}
+
+.car .ctrl a {
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+    width: 26px;
+    height: 26px;
+    margin: 30px auto;
+    line-height: 26px;
+}
+
+.car .ctrl a:hover {
+    color: #FFF;
+    background: #ff6700;
+}
+
+.head_row {
+    height: 40px;
+    line-height: 40px;
+}
+
+.head_row, .row {
+    border-bottom: solid 1px #e0e0e0;
+}
+
+.row {
+    height: 86px;
+    line-height: 86px;
+    padding: 15px 0;
+}
+
+.num-input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 60px;
+    font-size: 24px;
+    height: 25px;
+    line-height: 26px;
+    text-align: center;
+    color: #333;
+}
+
+.btn_plus {
+    width: 24px;
+    height: 24px;
+    background-color: #777777;
+    font-size: 16px;
+    text-align: center;
+    border: #f7f7f7 solid 2px;
+    color: #ffffff;
+    position: relative;
+    bottom: 5px;
+    box-shadow: 2px 2px 3px #888888;
+}
